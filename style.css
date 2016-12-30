@@ -47,6 +47,7 @@ article {
 
 #symbsearch h2,p{
   color: inherit;
+  font-weight: 400;
 }
 #symbsearch {
   transition: background 1s ease-in, color 1s;
