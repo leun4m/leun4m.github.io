@@ -1,8 +1,10 @@
 @import 'https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto';
 * {
-  background-color: #111;
   color: #f60;
   font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #111;
 }
 h1,h2,h3 {
   font-family: "Josefin Sans", sans-serif;
@@ -33,4 +35,26 @@ a {
 a:hover {
   border-color: #f60;
   transition: border .5s ease-in;
+}
+article {
+  background-color: rgba(0,0,0,0.5);
+  max-width: 400px;
+  margin: 1em;
+  padding: 1em;
+  color: white;
+  border-radius: 20px;
+}
+
+#symbsearch h2,p{
+  color: inherit;
+}
+#symbsearch {
+  transition: background 1s ease-in, color 1s;
+}
+#symbsearch:hover {
+  color: #046;
+  background-color: #fff; /*rgba(0,0,0,0.);*/
+}
+img {
+  background-color: transparent;
 }
