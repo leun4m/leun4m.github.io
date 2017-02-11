@@ -9,7 +9,8 @@ body {
 h1,h2,h3 {
   font-family: "Josefin Sans", sans-serif;
 }
-h1 {
+.mid h1 {
+  font-family: "Roboto";
   font-size: 3em;
 }
 .mid {
@@ -19,6 +20,7 @@ h1 {
 img {
   height: 3em;
   display: inline;
+  background-color: transparent;
 }
 footer {
   position: absolute;
@@ -55,7 +57,4 @@ article {
 #symbsearch:hover {
   color: #046;
   background-color: #fff; /*rgba(0,0,0,0.);*/
-}
-img {
-  background-color: transparent;
 }
