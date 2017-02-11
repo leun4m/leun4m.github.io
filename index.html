@@ -3,32 +3,40 @@
 <head>
   <meta charset="utf-8">
   <title>leun4m</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style/simple-grid.min.css">
+  <link rel="stylesheet" href="style/style.css">
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 </head>
 <body>
-  <header>
-    <div class="mid">
-      <img src="media/line.png">
-      <h1>leun4m</h1>
-    </div>
-  </header>
-  <main>
-    <h1>Projects</h1>
-    <a href="https://leun4m.github.io/symbsearch">
-      <article id="symbsearch">
-        <img src="https://leun4m.github.io/symbsearch/graphics/icon128.png">
-        <h2>SymbSearch</h2>
-        <p>A small tool for searching unicode-symbols</p>
-      </article>
-    </a>
-  </main>
-  <footer>
-    <div class="mid">
-      <a href="https://github.com/leun4m">
-        <img src="media/GitHub-Mark-Light-64px.png">
+  <div class="container">
+    <header>
+      <div class="row">
+        <div class="col-12 mid">
+          <img src="media/line.png">
+          <h1>leun4m</h1>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1>Projects</h1>
+      <div class="row">
+      <a href="https://leun4m.github.io/symbsearch">
+        <article class="col-6" id="symbsearch">
+          <img src="https://leun4m.github.io/symbsearch/graphics/icon128.png" height="48" width="48">
+          <h2>SymbSearch</h2>
+          <p>A small tool for searching unicode-symbols</p>
+        </article>
       </a>
     </div>
-  </footer>
+    </main>
+    <footer>
+      <div class="row">
+      <div class="col-12 mid">
+        <a href="https://github.com/leun4m">
+          <img src="media/GitHub-Mark-Light-64px.png" class="logo" height="48" width="48">
+        </a>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>

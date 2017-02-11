@@ -29,10 +29,10 @@ footer {
 a {
   text-decoration: none;
   font-weight: bold;
-  border-top: 1px solid transparent;
+  /*border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
   border-radius: 4px;
-  transition: border .2s ease-out;
+  transition: border .2s ease-out;*/
 }
 a:hover {
   border-color: #f60;
@@ -57,4 +57,13 @@ article {
 #symbsearch:hover {
   color: #046;
   background-color: #fff; /*rgba(0,0,0,0.);*/
+}
+footer a {
+  opacity: 0.5;
+  transition: opacity .2s ease-in-out; 
+}
+footer a:hover  {
+  border: none;
+  opacity: 1;
+  transition: opacity .5s ease-in-out; 
 }
