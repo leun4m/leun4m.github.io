@@ -1,16 +1,16 @@
-@import 'https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto';
+@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono|Roboto';
 * {
-  color: #f60;
+  color: #0980b9;
   font-family: "Roboto", sans-serif;
 }
 body {
   background-color: #111;
 }
 h1,h2,h3 {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Share Tech Mono", sans-serif;
 }
 .mid h1 {
-  font-family: "Roboto";
+  font-family: "Share Tech Mono";
   font-size: 3em;
 }
 .mid {
@@ -47,14 +47,14 @@ article {
   border-radius: 20px;
 }
 
-#symbsearch h2,p{
+.card h2,p{
   color: inherit;
   font-weight: 400;
 }
-#symbsearch {
+.card {
   transition: background 1s ease-in, color 1s;
 }
-#symbsearch:hover {
+.card:hover {
   color: #046;
   background-color: #fff; /*rgba(0,0,0,0.);*/
 }
